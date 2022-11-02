@@ -1,2 +1,3 @@
 # codingTest
-Repository For the Coding Test Study
+
+This is the repository for the coding test study.
