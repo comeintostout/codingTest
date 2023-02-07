@@ -1,18 +1,13 @@
 [A, B] = map(int,input().rstrip().split())
 
-minAB = min(A,B)
-maxAB = max(A,B)
+def gcd(num1, num2):
+    if num1 % num2 == 0:
+        return num2
+    else:
+        return gcd(num2, num1 % num2)
 
-commonSmall = 1
-for i in range(minAB,0,-1):
-    if A%i == 0 and B % i ==0:
-        commonSmall = i
-        break
-print(commonSmall)
+gcdValue = gcd(A,B)
+lcmValue = round((A * B) / gcdValue)
 
-commonBig = minAB
-while True:
-    if commonBig%A ==0 and commonBig%B == 0 and commonBig >= maxAB:
-        break
-    commonBig += minAB
-print(commonBig)
+print(gcdValue)
+print(lcmValue)
