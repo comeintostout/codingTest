@@ -28,8 +28,3 @@ for letter in F:
 while stack:
     ans += stack.pop()
 print(ans)
-
-# A+B*C-D/E
-
-# stack = [-/]
-# ans = "ABC*+DE/-"
