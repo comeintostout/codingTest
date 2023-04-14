@@ -1,5 +1,4 @@
 import sys
-from collections import deque
 
 FILE_NAME = "5.txt"
 
