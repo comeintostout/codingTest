@@ -7,7 +7,7 @@ N = int(input())
 for i in range(N):
     confs.append(list(map(int,input().split())))
 
-confs.sort(key=lambda x:x[1])
+confs.sort(key=lambda x:(x[1],x[0]))
 
 lastEd = 0
 score = 0
