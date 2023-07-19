@@ -1,6 +1,6 @@
 import sys
 
-FILE_NAME = "2.txt"
+FILE_NAME = "1.txt"
 sys.stdin = open("in"+FILE_NAME,"rt")
 
 n = int(input())
