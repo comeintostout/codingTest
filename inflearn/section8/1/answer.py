@@ -1,5 +1,4 @@
 import sys
-from itertools import combinations_with_replacement
 sys.stdin = open("in5.txt","rt")
 
 if __name__ == "__main__":
